@@ -3,5 +3,11 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+#   cities = City.create([ name: 'Chicago' ,  name: 'Copenhagen' ])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Post.create(title: "post1",description: 'this is a post')
+Post.create(title: "post2",description: 'this is a post')
+Post.create(title: "post3",description: 'this is a post')
+Post.create(title: "post4",description: 'this is a post')
+Post.create(title: "post5",description: 'this is a post')
